@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABAD</title>
+</head>
+<style>
+    body{
+        background-image: url(/Images/books_3.jpg);
+        opacity: 1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 150%;
+        background-color: black;
+        color: white;
+    }
+    #buttons{
+        text-align: center;
+        margin-top: 5px;
+        background-color: rgb(229, 117, 65);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #but{
+        font-size: larger;
+        font-weight: bolder;
+        background-color: rgb(229, 117, 65);
+        border: 0ch;
+        opacity: 0.8;
+    }
+    #but:hover{
+        color: aqua;
+        opacity: 1;
+        cursor: pointer;
+    }
+    #home{
+        text-align: center;
+        margin-top: 50px;
+        /* margin-bottom: 50px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 150%;
+        font-weight: bolder;
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        font-style: italic;
+        background-color: bisque;        
+    }
+    .link{
+        color: black;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: aqua;
+    }
+    #cont{
+        /* padding-left: 30px; */
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    #contact{
+        margin-top: -22px;
+        background-color: antiquewhite;
+        font-size: larger;
+        font-weight: bold;
+        border-style: solid;
+        border-width: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="logo">
+        <h1>Academic Books at Door</h1>
+    </div>
+    
+    <form id="buttons">
+        <a class="link" href="/abad.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_register.html">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_login.html">Login</a>
+    </form>
+
+    <div id="home">
+        <p>Select Semester:</p>
+        <select>
+            <option id="option">Select semester</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+        <p>Select Language:</p>
+        <select>
+            <option>Select language</option>
+            <option>Hindi</option>
+            <option>English</option>
+            <option>Gujarati</option>
+        </select><br><br>
+        <button>Search</button><br><br>
+    </div>
+    <h1 id="cont">Contact Us:</h1>
+    <div id="contact">
+            Contact email: abad@gmail.com<br>
+            Contact number: 1234567890
+    </div>
+</body>
+</html>

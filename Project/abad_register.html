@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<style>
+    body{
+        background-image: url(/Images/books_4_edited.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #head{
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: black;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    #form{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-style: solid;
+        border-width: 10px;
+        font-weight: bolder;
+        font-size: larger;
+        background-color: antiquewhite;
+    }
+    a{
+        font-style: italic;
+    }
+    #buttons{
+        text-align: center;
+        margin-top: 5px;
+        background-color: rgb(229, 117, 65);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .link{
+        color: black;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: aqua;
+    }
+</style>
+<body>
+    <form id="buttons">
+        <a class="link" href="/abad.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_register.html">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="link" href="/abad_login.html">Login</a>
+    </form>
+
+    <div id="head">
+        <h1>Register Here</h1>
+    </div>
+    <form id="form">
+        First name:<br> <input type="text" placeholder="First name" required><br><br>
+        Last name:<br> <input type="text" placeholder="Last name" required><br><br>
+        Email id:<br> <input type="email" placeholder="Email id" required><br><br>
+        Address:<br> <textarea name="Address" cols="30" rows="1" placeholder="Address"></textarea><br><br>
+        Mobile no:<br> <input type="number" placeholder="Mobile number" required><br><br>
+        Password:<br> <input type="password" placeholder="Password" required><br><br>
+        Confirm password:<br> <input type="password" placeholder="Confirm password" required><br><br>
+        <input type="checkbox" required>I agree to terms and conditions<br><br>
+        <button>Sign up</button>
+    </form>
+</body>
+</html>
